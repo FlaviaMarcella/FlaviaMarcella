@@ -2,19 +2,20 @@ name: Generate Snake
 
 on:
   schedule:
-    # Roda a cada 24 horas
     - cron: "0 0 * * *" 
-  
-  # Permite rodar manualmente na aba Actions
   workflow_dispatch:
+
+# Permissão explícita de escrita para corrigir o erro 128
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # Atualizado para v4 para corrigir o aviso do Node.js
+      - uses: actions/checkout@v4
 
-      # Gera a animação da cobrinha
       - uses: Platane/snk@v3
         id: snake-gif
         with:
@@ -23,9 +24,9 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Joga o arquivo gerado para a branch "output"
+      # Atualizado para v4 para corrigir o aviso do Node.js
       - name: Push to GitHub
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
