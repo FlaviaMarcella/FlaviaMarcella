@@ -79,3 +79,7 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=FlaviaMarcella&color=36BCF7&style=for-the-badge&label=VISITAS+NO+PERFIL" alt="Contador de Visitas" />
+</div>
