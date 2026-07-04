@@ -45,10 +45,12 @@
 ### 📊 Estatísticas e Contribuições
 
 <div align="center">
-  <!-- Substitua FlaviaMarcella pelo seu username do GitHub -->
+  <!-- Estatísticas Gerais -->
   <a href="https://github.com/FlaviaMarcella">
     <img height="160em" src="https://github-readme-stats.vercel.app/api?username=FlaviaMarcella&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
   </a>
+  
+  <!-- Linguagens Mais Usadas -->
   <a href="https://github.com/FlaviaMarcella">
     <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlaviaMarcella&layout=compact&langs_count=6&theme=tokyonight" alt="Linguagens Mais Usadas" />
   </a>
